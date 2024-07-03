@@ -40,5 +40,10 @@ namespace Calculator
             }
             return expression;
         }
+        public static void AssignVariable(string name, string expression)
+        {
+            SetVariableValue(name,expression);
+        }
+
     }
 }
