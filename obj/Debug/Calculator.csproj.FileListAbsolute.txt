@@ -1,0 +1,5 @@
+C:\Users\Baldj\Desktop\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\Baldj\Desktop\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Baldj\Desktop\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Baldj\Desktop\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Baldj\Desktop\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
