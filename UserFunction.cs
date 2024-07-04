@@ -44,7 +44,7 @@ namespace Calculator
         }
 
 
-        public bool isFunctionCreating(string exeption) // Метод будет вызываться для проверки создается ли функция 
+        static bool isFunctionCreating(string exeption) // Метод будет вызываться для проверки создается ли функция 
         {
             if (exeption.Contains("="))
             {
@@ -204,7 +204,7 @@ namespace Calculator
             return expression;
         }
 
-        static int FindMatchingParenthesis(string expression, int startIndex)
+        static int FindMatchingParenthesis(string expression, int startIndex)// Метод поиска нужной закрывающей скобки
         {
             int depth = 0;
 
