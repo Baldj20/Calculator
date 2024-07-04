@@ -1,0 +1,9 @@
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\bin\Release\Calculator.exe.config
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\bin\Release\Calculator.exe
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\bin\Release\Calculator.pdb
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\obj\Release\Calculator.csproj.AssemblyReference.cache
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\obj\Release\Calculator.Properties.Resources.resources
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\obj\Release\Calculator.csproj.GenerateResource.cache
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\obj\Release\Calculator.exe
+C:\Users\evgen\Desktop\Practice\Task1\Calculator\obj\Release\Calculator.pdb
