@@ -47,6 +47,10 @@ namespace Calculator
 
             foreach (char token in input)
             {
+                if ((previous_token == 44 || previous_token == 46) && !char.IsDigit(token))
+                {
+                    output.Append('0').Append(' ');
+                }
                 if (char.IsDigit(token) && char.IsDigit(previous_token))
                 {
                     output.Remove(output.Length - 1, 1).Append(token).Append(' ');
@@ -59,9 +63,9 @@ namespace Calculator
                 {
                     output.Append(token).Append(' ');
                 }
-                else if (IsOperator(token))
+                else if (Validation.IsOperator(token))
                 {
-                    while (stack.Count > 0 && IsOperator(stack.Peek()) && GetOperatorPriority(stack.Peek()) >= GetOperatorPriority(token))
+                    while (stack.Count > 0 && Validation.IsOperator(stack.Peek()) && GetOperatorPriority(stack.Peek()) >= GetOperatorPriority(token))
                     {
                         output.Append(stack.Pop()).Append(' ');
                     }
@@ -93,10 +97,7 @@ namespace Calculator
             return output.ToString();
         }
 
-        public static bool IsOperator(char symbol)
-        {
-            return symbol == 42 || symbol == 43 || symbol == 45 || symbol == 47;
-        }
+        
       
         public static int GetOperatorPriority(char operator_symbol)
         {
