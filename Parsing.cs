@@ -51,6 +51,10 @@ namespace Calculator
                 {
                     output.Remove(output.Length - 1, 1).Append(token).Append(' ');
                 }
+                else if ((token == 46 || token == 44) && char.IsDigit(previous_token))
+                {
+                    output.Remove(output.Length - 1, 1).Append(',');
+                }
                 else if (char.IsDigit(token))
                 {
                     output.Append(token).Append(' ');
